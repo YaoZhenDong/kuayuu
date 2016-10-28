@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>数据处理逻辑解析</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1"/>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/sql.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<fieldset>
+		<legend>插入数据</legend>
+		年：<input type="text" id="year" value="2016"/>
+		月：<input type="text" id="month" value="03"/>
+		日：<input type="text" id="day" value="30"/>
+		项目：<input type="text" id="type" value="娱乐"/>
+		金额：<input type="text" id="money" value="8.88"/>
+		<button id="insert">插入数据</button>
+	</fieldset>
+	<fieldset>
+		<legend>按条件进行查询</legend>
+		年：<input type="text" id="yearCon" value="2016"/>
+		月：<input type="text" id="monthCon" value="03"/>
+		<button id="searchByCon">查询</button>
+	</fieldset>
+	<div id="output_area">
+	这里显示输出结果。
+	</div>
+</body>
+</html>
